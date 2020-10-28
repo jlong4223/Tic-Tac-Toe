@@ -7,7 +7,7 @@ The classic tic tac toe game for the browser
 - CSS3
 - Javascript
 
-## Screeenshots
+## Screenshots
 - wireframe, etc
 
 ## Getting Started
