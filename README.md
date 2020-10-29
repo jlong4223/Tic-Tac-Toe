@@ -18,7 +18,7 @@ Final with Winner:
 ![winner](./imgs/finalwinner.png)
 
 ## Getting Started
-[Click Here]("#") to play the deployed game. 
+[Click Here]("https://jlong4223.github.io/Tic-Tac-Toe/") to play the deployed game. 
 
 
 ## Future Enchancments
