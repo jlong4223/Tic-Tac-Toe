@@ -53,8 +53,16 @@ function init(){
     render();
 };
 
-function handleClick() {
-    alert('something gameboard clicked')
+//.dataset is referring to the data identifyer in the html- so when you click on a box, it will consolelog the index number of the box you clicked
+
+function handleClick(event) {
+    // console.log(event.target.dataset.index)
+    const position = event.target.dataset.index;
+    if(gameboard[position] !== null) return; //this stops ability to change x/o 
+    gameboard[position] = turn;
+    turn *= -1;
+    render();
+    // console.log(gameboard)
 };
 
 function render() {
@@ -62,4 +70,5 @@ function render() {
     squareEls.forEach(function(square, position){
         square.textContent = LOOKUP[gameboard[position]];
     });
+    messageEl.textContent = `player ${LOOKUP[turn]}'s turn`
 };
