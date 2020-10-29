@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-The classic tic tac toe game for the browser
+The classic tic tac toe game for the browser.
 
 ## Technologies Used
 - HTML5
@@ -8,9 +8,18 @@ The classic tic tac toe game for the browser
 - Javascript
 
 ## Screenshots
-- wireframe, etc
+Wireframe:
+![wireframe](./imgs/TTT-wireframe.png)
+
+Empty Gameboard:
+![empty]("./imgs/emptygameboard.png")
+
+Final with Winner:
+![winner]("./imgs/finalwinner.png")
 
 ## Getting Started
-- Link to deployed project
+[Click Here]("#") to play the deployed game. 
+
 
 ## Future Enchancments
+- adding more CSS3 style
