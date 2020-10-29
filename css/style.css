@@ -24,10 +24,13 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 25px;
     flex-grow: 1;
 }
 
 #gameboard {
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     width: 600px;
     flex-wrap: wrap;
