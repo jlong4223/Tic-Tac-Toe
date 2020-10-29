@@ -12,10 +12,10 @@ Wireframe:
 ![wireframe](./imgs/TTT-wireframe.png)
 
 Empty Gameboard:
-![empty]("./imgs/emptygameboard.png")
+![empty](./imgs/emptygameboard.png)
 
 Final with Winner:
-![winner]("./imgs/finalwinner.png")
+![winner](./imgs/finalwinner.png)
 
 ## Getting Started
 [Click Here]("#") to play the deployed game. 
